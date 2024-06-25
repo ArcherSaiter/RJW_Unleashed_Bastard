@@ -60,6 +60,7 @@
             <li>AptitudeStrong_Animals</li>
             <li>AptitudeStrong_Crafting</li>
             <li MayRequire="vegapnk.rjw.genes">rjw_genes_zoophile</li>
+			<li MayRequire="archersaiter.rjw.traits">RJW_Traits_Playful_Sadist_Gene</li>
         </genes>
     </XenotypeDef>
 	
