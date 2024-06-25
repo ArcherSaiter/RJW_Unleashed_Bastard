@@ -46,7 +46,7 @@
 	<label>bastard fighter</label>
     <combatPower>40</combatPower>
     <weaponTags>
-      <li>MedievalMeleeAdvanced</li>
+      <li>LongSword</li>
 	  <li MayRequire="Ludeon.RimWorld.Royalty">UltratechMelee</li>
     </weaponTags>
     <techHediffsTags>
@@ -55,6 +55,9 @@
     <techHediffsChance>0.5</techHediffsChance>
 	<initialWillRange>18~25</initialWillRange>
 	<initialResistanceRange>25~35</initialResistanceRange>
+	<apparelMoney>1500~5000</apparelMoney>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <weaponMoney>500~3500</weaponMoney>
 	<xenotypeSet>
         <xenotypeChances>
             <RJW_Unleashed_UglyBastard>999</RJW_Unleashed_UglyBastard>
@@ -74,6 +77,9 @@
     <techHediffsChance>0.65</techHediffsChance>
     <initialWillRange>24~26</initialWillRange>
 	<initialResistanceRange>25~35</initialResistanceRange>
+	<apparelMoney>1500~7500</apparelMoney>
+    <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
+    <weaponMoney>750~5000</weaponMoney>
 	<xenotypeSet>
         <xenotypeChances>
             <RJW_Unleashed_UglyBastard>999</RJW_Unleashed_UglyBastard>
@@ -106,7 +112,7 @@
   <PawnKindDef Name="Ugly_Bastard_Coomer" ParentName="Ugly_Bastard">
     <defName>Ugly_Bastard_Coomer</defName>
 	<label>Bastard Coomer</label>
-	<combatPower>1000</combatPower>
+	<combatPower>300</combatPower>
 	<forceWeaponQuality>Excellent</forceWeaponQuality>
 	<itemQuality>Good</itemQuality>
 <!--	<specificApparelRequirements>
@@ -190,10 +196,10 @@
         <def MayRequire="Ludeon.RimWorld.Anomaly">JuggernautSerum</def>
         <durationTicksRange>60000~120000</durationTicksRange> <!-- 1~2 days -->
 	  </li>
-	  <li>
+	  <!--<li>
         <def MayRequire="Ludeon.RimWorld.Anomaly">RapidRegeneration</def>
         <severity>1</severity>
-      </li>
+      </li>-->
 	  <li>
         <def MayRequire="Ludeon.RimWorld.Anomaly">GhoulFrenzy</def>
         <durationTicksRange>60000~120000</durationTicksRange> <!-- 1~2 days -->
