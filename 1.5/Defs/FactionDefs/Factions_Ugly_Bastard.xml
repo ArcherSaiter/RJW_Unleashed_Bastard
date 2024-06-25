@@ -40,6 +40,8 @@
 	</apparelStuffFilter>
 	<requiredMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+		<li MayRequire="rjw.sexperience.ideology">Zoophile</li>
+		<li MayRequire="rjw.sexperience.ideology">Rapist</li>
     </requiredMemes>
 <!--	<xenotypeSet Inherit="False">
       <xenotypeChances>
