@@ -158,10 +158,10 @@
 	<overrideDeathOnDownedChance>1</overrideDeathOnDownedChance>
 	<forceDeathOnDowned>true</forceDeathOnDowned>
 	<fixedChildBackstories MayRequire="Ludeon.RimWorld.Anomaly">
-      <li>UnknownChildhood</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">UnknownChildhood</li>
     </fixedChildBackstories>
     <fixedAdultBackstories MayRequire="Ludeon.RimWorld.Anomaly">
-      <li>UnknownAdulthood</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">UnknownAdulthood</li>
     </fixedAdultBackstories>
 	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
     <basePrisonBreakMtbDays>0</basePrisonBreakMtbDays>
