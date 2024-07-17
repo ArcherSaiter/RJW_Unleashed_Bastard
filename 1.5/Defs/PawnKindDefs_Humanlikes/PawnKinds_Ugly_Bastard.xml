@@ -157,10 +157,10 @@
 	<aiAvoidCover>true</aiAvoidCover>
 	<overrideDeathOnDownedChance>1</overrideDeathOnDownedChance>
 	<forceDeathOnDowned>true</forceDeathOnDowned>
-	<fixedChildBackstories>
+	<fixedChildBackstories MayRequire="Ludeon.RimWorld.Anomaly">
       <li>UnknownChildhood</li>
     </fixedChildBackstories>
-    <fixedAdultBackstories>
+    <fixedAdultBackstories MayRequire="Ludeon.RimWorld.Anomaly">
       <li>UnknownAdulthood</li>
     </fixedAdultBackstories>
 	<acceptArrestChanceFactor>0</acceptArrestChanceFactor>
