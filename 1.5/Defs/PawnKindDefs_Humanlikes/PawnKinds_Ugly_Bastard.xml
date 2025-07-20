@@ -44,7 +44,7 @@
   <PawnKindDef Name="Ugly_Bastard_Fighter" ParentName="Ugly_Bastard">
     <defName>Ugly_Bastard_Fighter</defName>
 	<label>bastard fighter</label>
-    <combatPower>40</combatPower>
+    <combatPower>60</combatPower>
     <weaponTags>
       <li>LongSword</li>
 	  <li MayRequire="Ludeon.RimWorld.Royalty">UltratechMelee</li>
@@ -68,7 +68,7 @@
   <PawnKindDef Name="Ugly_Bastard_Shooter" ParentName="Ugly_Bastard">
     <defName>Ugly_Bastard_Shooter</defName>
 	<label>bastard shooter</label>
-    <combatPower>50</combatPower>
+    <combatPower>75</combatPower>
 	<factionLeader>true</factionLeader>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
@@ -90,7 +90,7 @@
   <PawnKindDef Name="Ugly_Bastard_Breacher" ParentName="Ugly_Bastard">
     <defName>Ugly_Bastard_Breacher</defName>
 	<label>bastard breacher</label>
-	<combatPower>45</combatPower>
+	<combatPower>70</combatPower>
     <weaponTags>
       <li>ExplosiveWeapon</li>
 	  <li>GrenadeDestructive</li>
@@ -112,7 +112,7 @@
   <PawnKindDef Name="Ugly_Bastard_Coomer" ParentName="Ugly_Bastard">
     <defName>Ugly_Bastard_Coomer</defName>
 	<label>Bastard Coomer</label>
-	<combatPower>300</combatPower>
+	<combatPower>500</combatPower>
 	<forceWeaponQuality>Excellent</forceWeaponQuality>
 	<itemQuality>Good</itemQuality>
 <!--	<specificApparelRequirements>
