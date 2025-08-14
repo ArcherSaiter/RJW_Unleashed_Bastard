@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Patch> 
+    <Operation Class="VEF.PatchOperationToggableSequence">
+		<enabled>True</enabled>
+		<label>Leashed bastards (Pussy mode)</label>
+		<mods>
+			<li>RJW_Unleashed_Bastard</li>
+		</mods>
+		<operations>
+			<!-- Ugly_Bastard_Fighter patches -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Fighter"]/apparelMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Fighter"]/apparelAllowHeadgearChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Fighter"]/weaponMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Fighter"]/techHediffsChance</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Fighter"]/weaponTags</xpath>
+				<value>
+					<weaponTags><li>LongSword</li></weaponTags>
+				</value>
+			</li>
+			
+			<!-- Ugly_Bastard_Shooter patches -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Shooter"]/apparelMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Shooter"]/apparelAllowHeadgearChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Shooter"]/weaponMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Shooter"]/techHediffsChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Shooter"]/techHediffsMoney</xpath>
+			</li>
+			
+			<!-- Ugly_Bastard_Breacher patches -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Breacher"]/techHediffsChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Breacher"]/techHediffsMoney</xpath>
+			</li>
+			
+			<!-- Ugly_Bastard_Coomer patches -->
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/apparelMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/apparelAllowHeadgearChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/weaponMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/techHediffsChance</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/techHediffsMoney</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/forcedTraits</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/meleeAttackInfectionPathways</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/abilities</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/startingHediffs</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="Ugly_Bastard_Coomer"]/weaponTags</xpath>
+				<value>
+					<weaponTags><li>LongSword</li></weaponTags>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+</Patch>
