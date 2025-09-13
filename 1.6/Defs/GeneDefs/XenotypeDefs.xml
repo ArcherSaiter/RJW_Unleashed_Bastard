@@ -44,7 +44,7 @@
 	<XenotypeDef ParentName="Ugly_Bastard_Base">
         <defName>RJW_Unleashed_UglyBastard</defName>
         <label>Ugly Bastard</label>
-        <description>Ugly, strong, and argessive rapists. While their origin is unknown, they are suspected to be an unholy creation of some crazed kinky scientist.</description>
+        <description>Ugly, strong, and agressive rapists. While their origin is unknown, they are suspected to be an unholy creation of some crazed kinky scientist.</description>
         <iconPath>Icons/Xenotype_Bastard</iconPath>
         <inheritable>true</inheritable>
         <genes>

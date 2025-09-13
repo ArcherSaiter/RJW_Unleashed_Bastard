@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ugly bastards -->
+  <RJW_Unleashed_BastardFaction.label>Bâtards difformes</RJW_Unleashed_BastardFaction.label>
+  <!-- EN: Barely allied collection of violent ugly bastard bands - xenohumans engineered by unknown crazed person. They have little interest in anything but violence and fucking, as well as ways to achieve that. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
+  <RJW_Unleashed_BastardFaction.description>Un regroupement à peine allié de bandes de bâtards difformes — des xénohumains créés par un individu dément et inconnu. Ils ne s’intéressent qu’à la violence et au sexe, ainsi qu’aux moyens d’y parvenir. La plupart utilisent des armes à poudre, mais certains préfèrent poignarder leurs victimes de près.</RJW_Unleashed_BastardFaction.description>
+  <!-- EN: boss -->
+  <RJW_Unleashed_BastardFaction.leaderTitle>Chef</RJW_Unleashed_BastardFaction.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <RJW_Unleashed_BastardFaction.messageDefendersAttacking>{0} de {1} attaquent votre {2}.</RJW_Unleashed_BastardFaction.messageDefendersAttacking>
+  <!-- EN: ugly bastard -->
+  <RJW_Unleashed_BastardFaction.pawnSingular>Bâtard difforme</RJW_Unleashed_BastardFaction.pawnSingular>
+  <!-- EN: ugly bastards -->
+  <RJW_Unleashed_BastardFaction.pawnsPlural>Bâtards difformes</RJW_Unleashed_BastardFaction.pawnsPlural>
+  
+</LanguageData>
